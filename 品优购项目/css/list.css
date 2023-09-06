@@ -1,0 +1,149 @@
+/* 列表页专有的样式 */
+
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+    left: 190px;
+    top: 40px;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+    font-family: 'icomoon';
+    content: '\e908';
+}
+
+.sk_bd .clearfix::after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.sk_bd .clearfix {
+    *zoom: 1;
+}
+
+.sk_bd ul li {
+    float: left;
+    overflow: hidden;
+    border: 1px solid transparent;
+    margin: 10px 13px 10px 0;
+    width: 290px;
+    height: 460px;
+    /* background-color: pink; */
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li img {
+    width: 100%;
+}
+
+.sk_bd ul li p {
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #c81523;
+}
+
+.sk_bd ul li div {
+    margin: 10px 0 0 15px;
+}
+
+.sk_bd ul li div .one {
+    font-size: 16px;
+    color: #c81523;
+    font-weight: 700;
+}
+
+.sk_bd ul li div .two {
+    font-size: 14px;
+    color: #cfcfcf;
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+
+.sk_bd ul li div .head,
+.sk_bd ul li div .bot {
+    float: left;
+    color: #cfcfcf;
+    font-size: 12px;
+}
+
+.sk_bd ul li div .mid {
+    float: left;
+    display: block;
+    width: 150px;
+    height: 15px;
+    margin: 0 10px;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+.sk_bd ul li div .mid .bgc {
+    float: left;
+    display: block;
+    width: 130px;
+    height: 100%;
+    background-color: #c81523;
+}
+
+.sk_bd .last {
+    float: left;
+    display: block;
+    margin: 10px 0 0 0;
+    width: 100%;
+    height: 45px;
+    background-color: #c81523;
+    color: #fff;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.sk_bd .last:hover {
+    color: black;
+}

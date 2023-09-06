@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>margin负值的巧妙运用</title>
+    <style>
+        ul li {
+            float: left;
+            margin: -1px;
+            list-style: none;
+            width: 150px;
+            height: 200px;
+            border: 1px solid pink;
+        }
+        
+        ul li:hover {
+            /* 1,盒子没有定位的情况
+            position: relative; */
+            /* 2，如果盒子都有定位，则利用z-index提高层级 */
+            z-index: 1;
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+
+    </ul>
+</body>
+
+</html>

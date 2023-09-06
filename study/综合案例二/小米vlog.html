@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            width: 350px;
+            height: 550px;
+            background-color: royalblue;
+            margin: 50px auto;
+        }
+        
+        div img {
+            width: 100%;
+        }
+        
+        .title {
+            font-size: 16px;
+            color: #cfcfcf;
+            margin-left: 10px;
+        }
+        
+        .price {
+            font-weight: 700;
+            color: brown;
+            font-size: 20px;
+            margin: 0 5px 0 10px;
+        }
+        
+        .count {
+            color: #cfcfcf;
+            font-size: 16px;
+            font-weight: 700;
+            text-decoration: line-through;
+        }
+        
+        .rect {
+            float: left;
+            width: 150px;
+            height: 12px;
+            border: 1px solid red;
+            border-radius: 6px;
+        }
+        
+        .rect .in {
+            float: left;
+            width: 80%;
+            height: 100%;
+            background-color: skyblue;
+        }
+        /* one,
+        two {
+            float: left;
+        } */
+        
+        .precise {
+            margin-left: 10px;
+        }
+        
+        .footer {
+            float: left;
+            width: 200px;
+            height: 20px;
+            margin-right: 10px;
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="../images/xiaomi.jpg" alt="">
+        <p class="title">Apple苹果iphone 6s Plus (A1699) 32G 金色 移动联通电信4G手机</p>
+        <span class="price">$6088</span>
+        <span class="count">$6988</span>
+        <div class="precise">
+            <span class="one">已售<span class="two" style="color: brown;">87%</span></span>
+
+            <span class="rect">
+                <span class="in"></span>
+            </span>
+            <span>剩余<span style="color: brown;">29件</span></span>
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+
+</html>

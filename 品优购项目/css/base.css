@@ -1,0 +1,58 @@
+/* 清除所有内外边距 */
+
+* {
+    padding: 0;
+    margin: 0;
+    /* css3盒子模型 */
+    box-sizing: border-box;
+}
+
+
+/* em和i斜体的文字不倾斜 */
+
+em,
+i {
+    font-style: normal;
+}
+
+
+/* 去掉li的小圆点 */
+
+li {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    vertical-align: center;
+}
+
+button {
+    /* 鼠标经过，变成小手 */
+    cursor: pointer;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c81623;
+}
+
+button,
+input {
+    font-family: Microsoft Yahei, heiti SC, tahoma, arial, Hiragino Sana GB, "\5B8B\4F53";
+    /* 去掉默认边框 */
+    border: 0;
+    /* 去掉选中时边框蓝线 */
+    outline: none;
+}
+
+body {
+    -webkit-font-smoothing: antialased;
+    background-color: #fff;
+    font: 12px/1.5 Microsoft Tahei, Heiti SC, tahoma, arial, Hiragino Sana GB, "\5B8B\4F53";
+    color: #666;
+}

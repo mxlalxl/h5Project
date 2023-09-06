@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS类选择器</title>
+    <style>
+        .box {
+            width: 50px;
+            height: 50px;
+        }
+        
+        .red {
+            background-color: darkred;
+        }
+        
+        .green {
+            background-color: deepskyblue;
+        }
+        
+        #pink {
+            background-color: pink;
+        }
+        
+        #black {
+            background-color: fuchsia;
+        }
+        
+        body {
+            font: italic 16px 'Microsoft yahei';
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box red">红色</div>
+    <div class="box green">绿色</div>
+    <div class="box red">红色</div>
+    <div id="pink" class="box">粉色</div>
+    <div class="box" id="black">黑色</div>
+    <div>我的</div>
+</body>
+
+</html>
